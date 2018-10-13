@@ -13,6 +13,7 @@
 		C474BA1521718ECC0042C50B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C474BA1421718ECC0042C50B /* Assets.xcassets */; };
 		C474BA1821718ECC0042C50B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C474BA1621718ECC0042C50B /* LaunchScreen.storyboard */; };
 		C474BA222171AB2E0042C50B /* WelfareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C474BA212171AB2E0042C50B /* WelfareViewController.swift */; };
+		C474BA242171D9880042C50B /* CareDogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C474BA232171D9880042C50B /* CareDogViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C474BA1721718ECC0042C50B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C474BA1921718ECC0042C50B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C474BA212171AB2E0042C50B /* WelfareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelfareViewController.swift; sourceTree = "<group>"; };
+		C474BA232171D9880042C50B /* CareDogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareDogViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				C474BA0D21718ECB0042C50B /* AppDelegate.swift */,
 				C474BA0F21718ECB0042C50B /* ViewController.swift */,
 				C474BA1121718ECB0042C50B /* Main.storyboard */,
+				C474BA232171D9880042C50B /* CareDogViewController.swift */,
 				C474BA212171AB2E0042C50B /* WelfareViewController.swift */,
 				C474BA1421718ECC0042C50B /* Assets.xcassets */,
 				C474BA1621718ECC0042C50B /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				C474BA222171AB2E0042C50B /* WelfareViewController.swift in Sources */,
 				C474BA1021718ECB0042C50B /* ViewController.swift in Sources */,
+				C474BA242171D9880042C50B /* CareDogViewController.swift in Sources */,
 				C474BA0E21718ECB0042C50B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
