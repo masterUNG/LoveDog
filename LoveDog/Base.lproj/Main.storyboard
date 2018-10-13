@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_0" orientation="portrait">
+    <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -14,71 +14,97 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LoveDog" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="KPh-oo-ujD">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="btnc11" translatesAutoresizingMaskIntoConstraints="NO" id="smX-Kx-msd">
-                                <rect key="frame" x="17" y="82" width="90" height="90"/>
+                                <rect key="frame" x="64" y="106" width="90" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="90" id="3ha-US-m0U"/>
                                     <constraint firstAttribute="height" constant="90" id="EaR-aV-i0F"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="btnc3" translatesAutoresizingMaskIntoConstraints="NO" id="JDc-1C-kGm">
-                                <rect key="frame" x="213" y="82" width="90" height="90"/>
+                                <rect key="frame" x="260" y="106" width="90" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="90" id="TmD-oe-3NZ"/>
                                     <constraint firstAttribute="width" constant="90" id="lNx-5H-ANG"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="btnc21" translatesAutoresizingMaskIntoConstraints="NO" id="JEs-Xx-b5N">
-                                <rect key="frame" x="115" y="82" width="90" height="90"/>
+                                <rect key="frame" x="162" y="106" width="90" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="90" id="1zx-ef-XPI"/>
                                     <constraint firstAttribute="height" constant="90" id="iVl-K6-33H"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="btnc4" translatesAutoresizingMaskIntoConstraints="NO" id="Ke1-YO-u76">
-                                <rect key="frame" x="17" y="180" width="90" height="90"/>
+                                <rect key="frame" x="64" y="204" width="90" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="90" id="5gV-3S-dAU"/>
                                     <constraint firstAttribute="width" constant="90" id="zH5-W1-vSf"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="btnc5" translatesAutoresizingMaskIntoConstraints="NO" id="mlM-MK-NOl">
-                                <rect key="frame" x="115" y="180" width="90" height="90"/>
+                                <rect key="frame" x="162" y="204" width="90" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="90" id="XJJ-j0-Jsb"/>
                                     <constraint firstAttribute="width" constant="90" id="fkm-gV-f4j"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="btnc6" translatesAutoresizingMaskIntoConstraints="NO" id="Cdk-iz-3MR">
-                                <rect key="frame" x="213" y="180" width="90" height="90"/>
+                                <rect key="frame" x="260" y="204" width="90" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="90" id="Bmk-fN-67B"/>
                                     <constraint firstAttribute="width" constant="90" id="r8C-07-0ar"/>
                                 </constraints>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="btnc7" translatesAutoresizingMaskIntoConstraints="NO" id="Lxn-oC-78u">
+                                <rect key="frame" x="110.5" y="302" width="90" height="90"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="90" id="HIj-ko-wnw"/>
+                                    <constraint firstAttribute="width" constant="90" id="nZd-l4-g6G"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="btnc8" translatesAutoresizingMaskIntoConstraints="NO" id="QbF-3u-Aez">
+                                <rect key="frame" x="213.5" y="302" width="90" height="90"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="90" id="Bwg-wL-3KZ"/>
+                                    <constraint firstAttribute="width" constant="90" id="ebb-Av-qKB"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MK3-4q-vVx">
+                                <rect key="frame" x="204.5" y="336" width="5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="mlM-MK-NOl" firstAttribute="top" secondItem="JEs-Xx-b5N" secondAttribute="bottom" constant="8" id="0OS-Y9-LIm"/>
                             <constraint firstItem="JEs-Xx-b5N" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0dG-8f-xya"/>
+                            <constraint firstItem="QbF-3u-Aez" firstAttribute="leading" secondItem="MK3-4q-vVx" secondAttribute="trailing" constant="4" id="5fY-6n-Kgn"/>
+                            <constraint firstItem="MK3-4q-vVx" firstAttribute="leading" secondItem="Lxn-oC-78u" secondAttribute="trailing" constant="4" id="7S1-oo-bcf"/>
+                            <constraint firstItem="Lxn-oC-78u" firstAttribute="top" secondItem="Ke1-YO-u76" secondAttribute="bottom" constant="8" id="9Rz-xr-sQE"/>
                             <constraint firstItem="JEs-Xx-b5N" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="62" id="D6H-jg-k4I"/>
                             <constraint firstItem="KPh-oo-ujD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="E46-U0-sDh"/>
                             <constraint firstItem="mlM-MK-NOl" firstAttribute="leading" secondItem="Ke1-YO-u76" secondAttribute="trailing" constant="8" id="FWd-bf-7U3"/>
                             <constraint firstItem="mlM-MK-NOl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NX5-MA-1ju"/>
                             <constraint firstItem="JDc-1C-kGm" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="62" id="OuO-vF-Z62"/>
                             <constraint firstItem="Cdk-iz-3MR" firstAttribute="leading" secondItem="mlM-MK-NOl" secondAttribute="trailing" constant="8" id="QMi-xK-3dt"/>
+                            <constraint firstItem="MK3-4q-vVx" firstAttribute="top" secondItem="mlM-MK-NOl" secondAttribute="bottom" constant="42" id="TLJ-2w-WGc"/>
                             <constraint firstItem="JDc-1C-kGm" firstAttribute="leading" secondItem="JEs-Xx-b5N" secondAttribute="trailing" constant="8" id="VZH-kw-5IJ"/>
                             <constraint firstItem="KPh-oo-ujD" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Wov-sp-zI0"/>
                             <constraint firstItem="smX-Kx-msd" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="62" id="cG7-Tm-xRl"/>
+                            <constraint firstItem="MK3-4q-vVx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ihu-uF-D41"/>
                             <constraint firstItem="Cdk-iz-3MR" firstAttribute="top" secondItem="JDc-1C-kGm" secondAttribute="bottom" constant="8" id="jDI-zo-Occ"/>
                             <constraint firstItem="Ke1-YO-u76" firstAttribute="top" secondItem="smX-Kx-msd" secondAttribute="bottom" constant="8" id="nYr-vh-REc"/>
                             <constraint firstItem="JEs-Xx-b5N" firstAttribute="leading" secondItem="smX-Kx-msd" secondAttribute="trailing" constant="8" id="pOe-IG-mNy"/>
+                            <constraint firstItem="QbF-3u-Aez" firstAttribute="top" secondItem="mlM-MK-NOl" secondAttribute="bottom" constant="8" id="rJA-9J-buZ"/>
                             <constraint firstItem="KPh-oo-ujD" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="tRi-rU-RaN"/>
                             <constraint firstItem="KPh-oo-ujD" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="ywk-Q8-5Dl"/>
                         </constraints>
@@ -98,5 +124,7 @@
         <image name="btnc4" width="130" height="126"/>
         <image name="btnc5" width="130" height="126"/>
         <image name="btnc6" width="130" height="126"/>
+        <image name="btnc7" width="130" height="126"/>
+        <image name="btnc8" width="130" height="126"/>
     </resources>
 </document>
